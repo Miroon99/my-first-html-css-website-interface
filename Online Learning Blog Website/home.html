@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Learning: Home</title>
+	<link rel="icon" href = "webIcon.png" type = "image/icon" size = "16x16">
+
+	<style>
+		html{
+			scroll-behavior: smooth;
+		}
+
+		body{
+			font-family:Arial;
+			line-height: 1.8;
+			margin: 0;
+		}
+
+		.navList ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+			background-color: white;
+			box-shadow: 0px 1px 10px;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		.navList li a{
+			float: left;
+			display: block;
+			padding: 14px 50px;
+			color: black;
+			letter-spacing: 3px;
+			text-align: center;
+			background-color: white;
+			transition: color 0.2s;
+			text-decoration: none;
+		}
+
+		.navList li.notSite a:hover {
+			color: #ADD8E6;
+		}
+
+		.navList li.onSite a{
+			cursor: default;
+			border-bottom: orange solid 3px;
+		}
+
+		#headingPosition{
+			margin: 5% 13%;
+			width: auto;
+			overflow: auto;
+		}
+
+		#headingText{
+
+			margin-top: 13%;
+			padding: 30px;
+			max-width: 500px;
+			border: black solid;
+
+		}
+
+		#headerImg{
+			float: right;
+		}
+
+		.button{
+			display: inline-block;
+			font-size: 15px;
+			color: white;
+			cursor: pointer;
+			border: none;
+			outline: none;
+			background-color: black;
+			width: 150px;
+			border-radius: 5px;
+			padding: 8px 5px;
+			margin-left: 300px;
+			box-shadow: 1px 5px #999999;
+		}
+
+		.button:active{
+			box-shadow: 1px 1px #444444;
+			transform: translatey(4px);
+		}
+
+		#stayHomePanel{
+
+			position: sticky;
+			top: 0;
+			width: 100%;
+			height: 100px;
+			background-color: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.socFotter{
+			filter: grayscale(0);
+			Transition: filter .5s;
+
+		}
+
+		.socFotter:hover{
+			filter: grayscale(100%);
+			cursor: pointer;
+		}
+
+		p{
+			text-indent: 50px;
+		}
+
+		footer{
+
+			background-color: grey;
+		}
+
+	</style>
+</head>
+<body style = "background-color: white">
+		
+	<div class = "navList">
+		<ul>
+			<li><a>E-Learning</a></li>
+			<li class = "onSite"><a href = "#">Home</a></li>
+			<li class = "notSite"><a href = "benefito.html">Benefits</a></li>
+			<li class = "notSite"><a href = "disadvantago.html">Disadvantage</a></li>
+			<li class = "notSite"><a href = "resources.html">Resources</a></li>
+			<li class = "notSite"><a href = "best.html">Best Software</a></li>
+			<li class = "notSite" style = "float: right"><a href = "about.html">About</a></li>
+		</ul>
+	</div>
+
+	<?php
+
+		echo "hello world";
+	?>
+
+	<div id=headingPosition>
+		<img src = "HeaderImage.jpg" alt = "headerImage" id = "headerImg" style = "width: 100%; max-width: 500px; height: auto">
+		<div id=headingText>
+			<h2 style = "letter-spacing: 2px;">The Future Is Here, <strong>E-Learning</strong></h2>
+			<p>Hello world Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world </p>
+			<button onclick="document.getElementById('introduction').scrollIntoView();" class = "button">Learn More</button>
+		</div>
+	</div>
+
+	<div id = "stayHomePanel">
+		<p style="color: white;">#StayHome</p>
+	</div>
+
+	<div id = "introduction" style = "margin: 5% 20%; padding-bottom: 100px;">
+		<h1>Hello World</h1>
+		<article style = "margin: 0 5%">
+			<p>Online learning is an education that takes place over the web. It’s often noted as “e-learning” among other terms. However, online learning is simply one kind of “distance learning” - the umbrella term for any learning that takes place across distance and not in an exceedingly traditional classroom. There are several types available today, including:</p>
+
+			<ul style = "margin: 50px">
+				<li>Correspondence Courses: Conducted through regular mail with little interaction.</li>
+				<li>Telecourses: Content is delivered via radio or television broadcast.</li>
+				<li>Online Learning: Internet-based courses offered synchronously or asynchronously.</li>
+				<li>Mobile Learning: Devices like cellular phones, PDAs and digital audio players.</li>
+			</ul>
+
+			<p> Online learning is different from traditional classroom teaching because online learning emphasizes an interactive learning environment, designed to stimulate dialogue between instructors and students and among students themselves. The online process requires both instructors and students to take active roles.</p>
+
+			<h2>Effectiveness Online Class</h2>
+
+			<div style = "margin: 0 5%">
+				<h3>Enhance your professional skills</h3>
+					<p>Online learning may be a vital means of updating your skills, knowledge, and attitudes. in an exceedingly fast competitive world, you would like to travel through a learning experience that's tailored to fulfill global demand. Freelancers and skill employees leverage online learning to boost their career progression and cultivate highly-demanded skills within the marketplace.</p>
+				<h3>Develop self-discipline</h3>
+					<p>Online learning will compel you to develop self-discipline skills like time management and project management. You can leverage time management tools to schedule some time and activities using a web calendar.</p>
+				<h3>Be evaluated immediately</h3>
+					<p>Waiting to get your examination scores in an exceedingly traditional setting is annoying and nerve-wracking. The web learning framework provides a rapid scoring mechanism that intimates you together with your scores having completed the web tests and quizzes.</p>
+				<h3>Learn at your pace</h3>
+					<p>Online learning provides you a method of knocking out some courses in no time. You will be able to grasp each other's concept and theory as you have got the chance to observe videos over and all over again without disturbing the lecturer. You establish your progress as you control your learning pathway.</p>
+			</div>
+
+
+
+		</article>
+	</div>
+
+	<footer>
+		<div style = "display: flex; justify-content: center; flex-direction: column; align-items: center; padding: 50px">
+
+			<p style = "color: white; padding-right: 50px">visit our social media</p>
+			<div>
+				<img class = "socFotter" src = "facebook.png" alt = "facebook">
+				<img class = "socFotter" src = "twitter.png" alt = "twitter">
+				<img class = "socFotter" src = "instagram.png" alt = "instagram">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

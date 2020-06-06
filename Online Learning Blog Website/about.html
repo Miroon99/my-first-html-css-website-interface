@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>E-Learning: Best Software</title>
+	<link rel="icon" href = "webIcon.png" type = "image/icon" size = "16x16">
+
+	<style>
+
+		html, body{
+		height: 100%;
+		margin: 0;
+		line-height: 1.8;
+		font-family: Arial;
+	}
+
+	.navList ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		background-color: white;
+		box-shadow: 0px 1px 10px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.navList li a{
+		float: left;
+		display: block;
+		padding: 14px 50px;
+		color: black;
+		letter-spacing: 3px;
+		text-align: center;
+		background-color: white;
+		transition: color 0.2s;
+		text-decoration: none;
+	}
+
+	.navList li.notSite a:hover {
+		color: #ADD8E6;
+	}
+
+	.navList li.onSite a{
+		cursor: default;
+		border-bottom: orange solid 3px;
+	}
+
+	.namecard-holder{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 100px;
+	}
+
+	.namecard{
+
+			margin: 50px 50px;
+			border-radius: 10px;
+			padding: 50px;
+			width: 200px;
+			text-align: center;
+			box-shadow: 1px 1px 10px;
+		}
+
+	div.namecard-holder img{
+
+			display: flex;
+			width:100%;
+			max-width: 100px;
+			height: auto;
+			border-radius: 100%;
+		}
+
+	div.namecard ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: justify;
+		}
+
+	div.namecard li{
+			margin:10px;
+		}
+
+	h2{
+			border-bottom: 1px solid grey;
+			padding-bottom: 10px;
+		}
+
+		.socFotter{
+		filter: grayscale(0);
+		Transition: filter .5s;
+
+	}
+
+	.socFotter:hover{
+		filter: grayscale(100%);
+		cursor: pointer;
+	}
+
+	.container{
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+	</style>
+</head>
+<body>
+	<div class = "navList">
+		<ul>
+			<li><a>E-Learning</a></li>
+			<li class = "notSite"><a href = "home.html">Home</a></li>
+			<li class = "notSite"><a href = "benefito.html">Benefits</a></li>
+			<li class = "notSite"><a href = "disadvantago.html">Disadvantage</a></li>
+			<li class = "notSite"><a href = "resources.html">Resources</a></li>
+			<li class = "notSite"><a href = "best.html">Best Software</a></li>
+			<li class = "onSite" style = "float: right"><a href = "#">About</a></li>
+		</ul>
+	</div>
+
+	<div style = "margin-top: 100px; box-shadow: 0px 1px 10px; width: 100%">
+
+		<div style = "padding: 50px">
+			<img src = "dance.jpg" alt = "dancing like monkey yo" style= "width: 30%; height: auto; vertical-align: middle">
+			<h1 style = "display:inline-block; font-size: 40px">This Website Was Brought To You By ~</h1>
+		</div>
+	</div>
+
+	<div class = "namecard-holder">
+
+		<div class="namecard">
+			<img src="imran.jpg" alt="imranhensem">
+			<h2>Mohamad Alimran</h2>
+			<ul>
+				<li>Department: Multimedia</li>
+				<li>Age: 21</li>
+				<li>Hobby: Gaming</li>
+			</ul>
+		</div>
+
+		<div class="namecard">
+			<img src="shank.jpg" alt="shank boi">
+			<h2>Muhammad imran iman</h2>
+			<ul>
+				<li>Department: Information System</li>
+				<li>Age: 21</li>
+				<li>Hobby: Gaming, Rugbi</li>
+			</ul>
+		</div>
+
+		<div class="namecard">
+			<img src="ai.jpg" alt="ai wtf">
+			<h2>NurAina</h2>
+			<ul>
+				<li>Department: Multimedia</li>
+				<li>Age: 22</li>
+				<li>Hobby: PUBG</li>
+			</ul>
+		</div>
+
+		<div class="namecard">
+			<img src="hazman.jpg" alt="hazmanhensem">
+			<h2>Muhd Hazman</h2>
+			<ul>
+				<li>Department: Multimedia</li>
+				<li>Age: 21</li>
+				<li>Hobby: Fifa, Vlog</li>
+			</ul>
+		</div>
+
+		<div class="namecard">
+			<img src="tika.jpg" alt="Tika anjay">
+			<h2>Nur Atikah</h2>
+			<ul>
+				<li>Department: Multimedia</li>
+				<li>Age: 21</li>
+				<li>Hobby: Texting Boyfriend</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+  <form action="/action_page.php" method = "post">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Comment</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+	<footer style = "background-color: grey">
+		<div style = "display: flex; justify-content: center; flex-direction: column; align-items: center; padding: 50px">
+
+			<p style = "color: white; padding-right: 50px">visit our social media</p>
+			<div>
+				<img class = "socFotter" src = "facebook.png" alt = "facebook">
+				<img class = "socFotter" src = "twitter.png" alt = "twitter">
+				<img class = "socFotter" src = "instagram.png" alt = "instagram">
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+</html>

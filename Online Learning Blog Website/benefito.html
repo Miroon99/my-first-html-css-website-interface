@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Learning: Benefits</title>
+	<link rel="icon" href = "webIcon.png" type = "image/icon" size = "16x16">
+
+<style>
+	html, body{
+		height: 100%;
+		margin: 0;
+		line-height: 1.8;
+		font-family: Arial;
+	}
+
+	.navList ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 0px 1px 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+
+	.navList li a{
+		float: left;
+		display: block;
+		padding: 14px 50px;
+		color: black;
+		letter-spacing: 3px;
+		text-align: center;
+		background-color: white;
+		transition: color 0.2s;
+		text-decoration: none;
+	}
+
+	.navList li.notSite a:hover {
+		color: #ADD8E6;
+	}
+
+	.navList li.onSite a{
+		cursor: default;
+		border-bottom: orange solid 3px;
+	}
+
+	.hero-image {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(advantageHeader.jpg);
+		height: 70%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
+	.hero-text {
+
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+
+	.article-image{
+		width: 100%;
+		max-width: 200px;
+		height: auto;
+		border-radius: 50%;
+	}
+
+	.content-container{
+		width: 50%;
+		margin: 100px auto;
+		text-align: center;
+	}
+
+	.content{
+
+
+		padding: 100px;
+		border-bottom: 1px solid #AAAAAA;
+	}
+
+	.socFotter{
+		filter: grayscale(0);
+		Transition: filter .5s;
+
+	}
+
+	.socFotter:hover{
+		filter: grayscale(100%);
+		cursor: pointer;
+	}
+
+	</style>
+</head>
+<body>
+
+	
+
+	<div class="hero-image">
+		<div class="hero-text">
+			<h1 style = "font-size: 100px">The Benefits</h1>
+			<h2 style = "font-size: 50px">Of E-learning</h2>
+		</div>
+	</div>
+
+	<div class = "navList">
+		<ul>
+			<li><a>E-Learning</a></li>
+			<li class = "notSite"><a href = "home.html">Home</a></li>
+			<li class = "onSite"><a href = "#">Benefits</a></li>
+			<li class = "notSite"><a href = "disadvantago.html">Disadvantage</a></li>
+			<li class = "notSite"><a href = "resources.html">Resources</a></li>
+			<li class = "notSite"><a href = "best.html">Best Software</a></li>
+			<li class = "notSite" style = "float: right"><a href = "about.html">About</a></li>
+		</ul>
+	</div>
+
+	<div class = "content-container">
+
+		<div class = "content">
+		<img src = "money.jpg" alt = "money boii" class = "article-image">
+		<h3>Reduced cost</h3>
+		<p>Online class will surely cut the cost as we do not have to pay for the costs such as transport costs and learning materials.</p>
+		</div>
+
+		<div class = "content">
+		<img src = "flexibilty.jpg" alt = "flex my body yeh" class = "article-image">
+		<h3>Flexibility</h3>
+		<p>Students have the flexibility to be in their classes or to do their work as physical class will not be necessary.</p>
+		</div>
+
+		<div class = "content">
+		<img src = "boost.jpg" alt = "boost" class = "article-image">
+		<h3>Self-discipline and Responsibility</h3>
+		<p>Since online classes require the students to be independent on their own, it will boost their self discipline and responsibility.</p>
+		</div>
+
+		<div style = "margin: 100px">
+		<img src = "learn.jpg" alt = "learn" class = "article-image">
+		<h3>Customize learning environment</h3>
+		<p>Students get to customize their own learning environment and space that fit their own comfort.</p>
+		</div>
+
+	</div>
+
+	<footer style = "background-color: grey">
+		<div style = "display: flex; justify-content: center; flex-direction: column; align-items: center; padding: 50px">
+
+			<p style = "color: white; padding-right: 50px">visit our social media</p>
+			<div>
+				<img class = "socFotter" src = "facebook.png" alt = "facebook">
+				<img class = "socFotter" src = "twitter.png" alt = "twitter">
+				<img class = "socFotter" src = "instagram.png" alt = "instagram">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

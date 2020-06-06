@@ -1,0 +1,127 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<title>E-Learning: Best Software</title>
+	<link rel="icon" href = "webIcon.png" type = "image/icon" size = "16x16">
+
+	<style>
+
+	html, body{
+		height: 100%;
+		margin: 0;
+		line-height: 1.8;
+		font-family: Arial;
+	}
+
+	.navList ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		background-color: white;
+		box-shadow: 0px 1px 10px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.navList li a{
+		float: left;
+		display: block;
+		padding: 14px 50px;
+		color: black;
+		letter-spacing: 3px;
+		text-align: center;
+		background-color: white;
+		transition: color 0.2s;
+		text-decoration: none;
+	}
+
+	.navList li.notSite a:hover {
+		color: #ADD8E6;
+	}
+
+	.navList li.onSite a{
+		cursor: default;
+		border-bottom: orange solid 3px;
+	}
+
+	ol.bestlist img{
+		width:100%;
+		max-width: 500px;
+		height: auto;
+	}
+
+	ol.bestlist p{
+		margin-bottom: 100px;
+	}
+
+	.socFotter{
+		filter: grayscale(0);
+		Transition: filter .5s;
+
+	}
+
+	.socFotter:hover{
+		filter: grayscale(100%);
+		cursor: pointer;
+	}
+
+	</style>
+</head>
+<body>
+	<div class = "navList">
+		<ul>
+			<li><a>E-Learning</a></li>
+			<li class = "notSite"><a href = "home.html">Home</a></li>
+			<li class = "notSite"><a href = "benefito.html">Benefits</a></li>
+			<li class = "notSite"><a href = "disadvantago.html">Disadvantage</a></li>
+			<li class = "notSite"><a href = "resources.html">Resources</a></li>
+			<li class = "onSite"><a href = "#">Best Software</a></li>
+			<li class = "notSite" style = "float: right"><a href = "about.html">About</a></li>
+		</ul>
+	</div>
+
+	<div style="margin: 200px 100px">
+		<div style="line-height: normal; border-bottom: 1px solid grey; padding-bottom: 50px">
+			<h1>Best Online Class Software/Application</h1>
+			<h3>For E-learning</h3>
+		</div>
+
+		<div style = "padding-top: 0px; width: 70%">
+			<ol class = "bestList" style = "padding: 100px">
+				<li><h2>Google Classroom</h2></li>
+				<img src="gclassroom.png" alt="google classroom">
+				<p>Google Classroom is a free web service, developed by Google for schools, that aims to simplify creating, distributing, and grading assignments in a paperless way. The primary purpose of Google Classroom is to streamline the process of sharing files between teachers and students.</p>
+
+				<li><h2>Kahoot!</h2></li>
+				<img src="kahoot.jpg" alt="kahoot!">
+				<p>Kahoot! is a game-based learning platform, used as educational technology in schools and other educational institutions. Its learning games, "Kahoots", are user-generated multiple-choice quizzes that can be accessed via a web browser or the Kahoot app.</p>
+
+				<li><h2>Google Meet</h2></li>
+				<img src="GMeet.jpg" alt="google meet">
+				<p>Google Meet is a video communication service developed by Google. It is one of two apps that constitute the new version of Google Hangouts, the other being Google Chat. Google will begin to retire the classic version of Hangouts in October 2019. It suitable to used to conduct any lecture or forum as it supports many user in one time.</p>
+
+				<li><h2>Padlet</h2></li>
+				<img src="padlet.png" alt="padlet">
+				<p>Padlet is an application to create an online bulletin board that you can use to display information for any topic. Easily create an account and build a new board. You can add images, links, videos, columns for sorting or refining organization, and more.</p>
+
+			</ol>
+		</div>
+	</div>
+
+
+	<footer style = "background-color: grey">
+		<div style = "display: flex; justify-content: center; flex-direction: column; align-items: center; padding: 50px">
+
+			<p style = "color: white; padding-right: 50px">visit our social media</p>
+			<div>
+				<img class = "socFotter" src = "facebook.png" alt = "facebook">
+				<img class = "socFotter" src = "twitter.png" alt = "twitter">
+				<img class = "socFotter" src = "instagram.png" alt = "instagram">
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Learning: Resources</title>
+	<link rel="icon" href = "webIcon.png" type = "image/icon" size = "16x16">
+
+<style>
+
+	html, body{
+		height: 100%;
+		margin: 0;
+		line-height: 1.8;
+		font-family: Arial;
+	}
+
+	.navList ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 0px 1px 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+
+	.navList li a{
+		float: left;
+		display: block;
+		padding: 14px 50px;
+		color: black;
+		letter-spacing: 3px;
+		text-align: center;
+		background-color: white;
+		transition: color 0.2s;
+		text-decoration: none;
+	}
+
+	.navList li.notSite a:hover {
+		color: #ADD8E6;
+	}
+
+	.navList li.onSite a{
+		cursor: default;
+		border-bottom: orange solid 3px;
+	}
+
+	.headerImage{
+		background-image: url("study.jpg");
+		height: 60%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		z-index:-99;
+	}
+
+	.content-container{
+
+		width:50%;
+		margin: 0 auto;
+		text-align: justify;
+		padding: 50px;
+	}
+
+	div.content-container > div{
+		margin-top: 100px;
+	}
+
+	.socFotter{
+		filter: grayscale(0);
+		Transition: filter .5s;
+
+	}
+
+	.socFotter:hover{
+		filter: grayscale(100%);
+		cursor: pointer;
+	}
+
+
+</style>
+</head>
+
+<body>
+	<div class = "navList">
+		<ul>
+			<li><a>E-Learning</a></li>
+			<li class = "notSite"><a href = "home.html">Home</a></li>
+			<li class = "notSite"><a href = "benefito.html">Benefits</a></li>
+			<li class = "notSite"><a href = "disadvantago.html">Disadvantage</a></li>
+			<li class = "onSite"><a href = "#">Resources</a></li>
+			<li class = "notSite"><a href = "best.html">Best Software</a></li>
+			<li class = "notSite" style = "float: right"><a href = "about.html">About</a></li>
+		</ul>
+	</div>
+
+	<div style = "width: 50%; margin: 0 auto; padding: 100px; text-align: center;">
+		<h1>The best resources for online teaching</h1>
+		<p>Explore the varied ways teachers can support their students online, in the wake of the school shutdowns following the coronavirus pandemic.</p>
+	</div>
+
+	<div class = "headerImage"></div>
+
+	<div class = "content-container">
+
+		<div>
+			<h3>Ebooks</h3>
+			<p>eBook is one of the resources that is easy to obtain nowadays. There are few reference book available to download from Google PlayBook as many companies also produce the ebook version rather than focus on producing physical books. In addition, ebooks such as articles, journals or thesis also can be obtained from Google Scholar for free. All of this ebook can be used as reference for students during e-learning.</p>
+		</div>
+
+		<div>
+			<h3>Videos</h3>
+			<p>Some other options for students also include video. There are many videos that can be used as reference during e-learning processes such as Neso Academy and Khan Academy from Youtube Channel. There are many tutorials that can be learned from that video to use in learning process. </p>
+		</div>
+
+		<div>
+			<h3>Recorded lectures</h3>
+			<p>A few lecturers also recorded their teaching session to be accessed by any student who not understand during the lecture session or for those who cannot follow the  lecture session due to internet connection etc. This will help the student to follow the lecture session without missed any information from the class.</p>
+		</div>
+
+		<div>
+			<h3>Quizzes</h3>
+			<p>Quiz is another example that can be used to test student understanding during the e-learning process. There are few applications that can be used to make the quiz available for all the students. The most popular among lecturers currently is Kahoot!.</p>
+		</div>
+
+		<div>
+			<h3>Discussion forums</h3>
+			<p>Forums are also a good resource to be utilized by students. Forums are the easiest and can be understood by students mostly as the student can do the Q&A with the lecturers. For example, Google Meet and Zoom provided video call and chat rooms that can be used fully by the student and lecturer for the teaching process during e-learning sessions.</p>
+		</div>
+	</div>
+
+	<footer style = "background-color: grey">
+		<div style = "display: flex; justify-content: center; flex-direction: column; align-items: center; padding: 50px">
+
+			<p style = "color: white; padding-right: 50px">visit our social media</p>
+			<div>
+				<img class = "socFotter" src = "facebook.png" alt = "facebook">
+				<img class = "socFotter" src = "twitter.png" alt = "twitter">
+				<img class = "socFotter" src = "instagram.png" alt = "instagram">
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
